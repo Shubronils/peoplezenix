@@ -137,7 +137,7 @@ const HireDevelopers = () => {
       <section className="py-24 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <AnimatedSection className="text-center max-w-2xl mx-auto">
-            <h2 className="text-3xl font-heading font-bold text-foreground mb-8">Why Hire Through <span className="text-gradient">NexaBridge</span>?</h2>
+            <h2 className="text-3xl font-heading font-bold text-foreground mb-8">Why Hire Through <span className="text-gradient">Peoplezenix</span>?</h2>
             <div className="grid gap-4 text-left">
               {[
                 "Rigorously vetted — only top 1% pass our screening",

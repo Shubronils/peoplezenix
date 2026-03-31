@@ -53,7 +53,7 @@ const Home = () => {
               transition={{ duration: 0.7 }}
             >
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-medium mb-6">
-                <Zap className="w-3.5 h-3.5" /> Trusted by 200+ Companies Worldwide
+                <Zap className="w-3.5 h-3.5" /> Smart Talent Solutions
               </span>
             </motion.div>
 
@@ -63,8 +63,8 @@ const Home = () => {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold leading-tight mb-6"
             >
-              Build Faster with{" "}
-              <span className="text-gradient">Elite Engineers</span>
+              Strategic Hiring Partner for {" "}
+              <span className="text-gradient">Modern Businesses Growth</span>
             </motion.h1>
 
             <motion.p
@@ -122,10 +122,14 @@ const Home = () => {
             <AnimatedSection variant="slideLeft">
               <span className="text-primary text-sm font-semibold uppercase tracking-wider">Who We Are</span>
               <h2 className="text-3xl lg:text-4xl font-heading font-bold text-foreground mt-3 mb-6">
-                Your Technology Partner for <span className="text-gradient">Scalable Growth</span>
+                Expertise in  <span className="text-gradient">Niche Technologies</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                At NexaBridge, we connect world-class engineering talent with ambitious companies. Whether you need a single specialist or an entire team, we deliver — fast, flexible, and with zero compromise on quality.
+                We specialize in sourcing professionals in niche and emerging technologies that are often difficult to find in the market. Our strong talent network and targeted sourcing strategies allow us to identify highly specialized candidates who can contribute immediately to your projects.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Faster Talent Delivery Across India & Overseas Market<br/>
+                Time is crucial when it comes to hiring. Our streamlined recruitment process enables us to provide qualified candidates in a very short time frame, ensuring your projects move forward without delays.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
@@ -181,7 +185,7 @@ const Home = () => {
       <section className="py-24">
         <div className="container mx-auto px-4 lg:px-8">
           <AnimatedSection className="text-center mb-16">
-            <span className="text-primary text-sm font-semibold uppercase tracking-wider">Why NexaBridge</span>
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">Why Peoplezenix</span>
             <h2 className="text-3xl lg:text-4xl font-heading font-bold text-foreground mt-3">
               Built for <span className="text-gradient">Speed & Quality</span>
             </h2>

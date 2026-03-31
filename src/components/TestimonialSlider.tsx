@@ -4,12 +4,12 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "NexaBridge transformed our tech infrastructure. Their team integrated seamlessly and delivered exceptional results within weeks.",
+    quote: "Peoplezenix transformed our tech infrastructure. Their team integrated seamlessly and delivered exceptional results within weeks.",
     name: "Sarah Chen",
     role: "CTO, FinFlow",
   },
   {
-    quote: "The dedicated developers we hired through NexaBridge have been game-changers. Their expertise in cloud architecture saved us months.",
+    quote: "The dedicated developers we hired through Peoplezenix have been game-changers. Their expertise in cloud architecture saved us months.",
     name: "Marcus Rodriguez",
     role: "VP Engineering, DataScale",
   },

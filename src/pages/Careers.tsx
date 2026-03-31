@@ -39,7 +39,7 @@ const Careers = () => {
           <AnimatedSection className="text-center max-w-3xl mx-auto">
             <span className="text-primary text-sm font-semibold uppercase tracking-wider">Join Our Team</span>
             <h1 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mt-3 mb-6">
-              Build Your Career at <span className="text-gradient">NexaBridge</span>
+              Build Your Career at <span className="text-gradient">Peoplezenix</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Join a team of passionate engineers and consultants shaping the future of technology. We value growth, innovation, and work-life balance.
@@ -139,7 +139,7 @@ const Careers = () => {
                 className="w-full px-4 py-3 rounded-lg bg-muted border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
               />
               <textarea
-                placeholder="Why do you want to join NexaBridge?"
+                placeholder="Why do you want to join Peoplezenix?"
                 rows={4}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}

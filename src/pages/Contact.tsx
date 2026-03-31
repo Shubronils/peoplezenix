@@ -95,9 +95,9 @@ const Contact = () => {
                   <h3 className="font-heading font-semibold text-foreground mb-4">Get in Touch</h3>
                   <div className="space-y-4">
                     {[
-                      { icon: <Mail className="w-5 h-5" />, label: "Email", value: "hello@nexabridge.com" },
+                      { icon: <Mail className="w-5 h-5" />, label: "Email", value: "hello@Peoplezenix.com" },
                       { icon: <Phone className="w-5 h-5" />, label: "Phone", value: "+1 (555) 123-4567" },
-                      { icon: <MapPin className="w-5 h-5" />, label: "Office", value: "123 Innovation Drive\nSan Francisco, CA 94105" },
+                      { icon: <MapPin className="w-5 h-5" />, label: "Office", value: "123 Innovation Drive\nAhemdabad, Gujarat, India 94105" },
                     ].map((item) => (
                       <div key={item.label} className="flex items-start gap-3">
                         <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
@@ -138,7 +138,7 @@ const Contact = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="NexaBridge Office Location"
+                    title="Peoplezenix Office Location"
                   />
                 </div>
               </div>

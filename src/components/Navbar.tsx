@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
+import logo from "../assets/peoplezenix-logoo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -50,13 +51,31 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
+          {/* <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
               <span className="font-heading font-bold text-primary-foreground text-sm">N</span>
             </div>
             <span className="font-heading font-bold text-xl text-foreground">
-              Nexa<span className="text-gradient">Bridge</span>
+              People<span className="text-gradient">Zenxi</span>
             </span>
+          </Link> */}
+           <Link to="/" className="flex-shrink-0 flex items-center">
+            <div>
+              
+              {logo ? (
+                <img 
+                  src={logo} 
+                  alt="People Zenix" 
+                  className="h-[65px] w-auto object-contain"
+                />
+              ) : (
+                 
+                <span className="font-heading font-bold text-xl text-foreground">
+                  People<span className="text-gradient">Zenxi</span>
+                </span>
+              )}
+
+            </div>
           </Link>
 
           {/* Desktop Nav */}

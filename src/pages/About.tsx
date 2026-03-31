@@ -33,7 +33,7 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-glow" />
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <AnimatedSection className="text-center max-w-3xl mx-auto">
-            <span className="text-primary text-sm font-semibold uppercase tracking-wider">About NexaBridge</span>
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">About Peoplezenix</span>
             <h1 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mt-3 mb-6">
               Bridging the Gap Between <span className="text-gradient">Talent & Innovation</span>
             </h1>
